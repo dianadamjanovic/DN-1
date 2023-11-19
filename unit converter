@@ -1,0 +1,11 @@
+print("Hi, this is an unit converter. We convert your kilometers into miles!")
+
+while True:
+    kilometer = (int(input("Please enter the kilometer value: ")))
+    miles = kilometer * 0.6213711922
+    print(miles)
+
+    question = input("Would you like to enter more values? Enter 'YES' or 'NO': ")
+    if question != "YES" and question != "yes" and question != "Yes":
+        print("Goodbye")
+        break
